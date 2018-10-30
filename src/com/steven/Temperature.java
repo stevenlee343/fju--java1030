@@ -3,7 +3,7 @@ package com.steven;
 public class Temperature {
 	double celsius;
 	
-	public Temperature(int celsius) {
+	public Temperature(double celsius) {
 		this.celsius = celsius;
 
 	}
