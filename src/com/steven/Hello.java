@@ -7,8 +7,10 @@ public class Hello {
 		int inch = 150;
 		double CM_PER_INCH = 2.54;
 		double cm = inch * CM_PER_INCH;
-		System.out.printf("%d in = %.2f cm",inch , cm);
+		System.out.printf("%d in = %.2f cm\n",inch , cm);
 		
+		double c = 24;
+		System.out.print(c);
 
 	}
 
