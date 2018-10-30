@@ -9,7 +9,7 @@ public class Hello {
 		double cm = inch * CM_PER_INCH;
 		System.out.printf("%d in = %.2f cm\n",inch , cm);
 		  
-		double c = 24; 
+		double c = 24;   
 		double f = c * (9.0/5) + 32;
 		System.out.printf("%f\n",f); 
 		System.out.printf("%.1f C = %.1f F", c,f);  
