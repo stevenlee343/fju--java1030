@@ -10,8 +10,9 @@ public class Hello {
 		System.out.printf("%d in = %.2f cm\n",inch , cm);
 		
 		double c = 24;
-		System.out.print(c);
-
+		double f = c * (9.0/5) + 32;
+		System.out.printf("%f\n",f);
+		System.out.printf("%.1f C = %.1f F", c,f);
 	}
 
 }
