@@ -11,17 +11,15 @@ public class MyHello {
 		System.out.print("Your name ");
 		String name = scanner.nextLine();
 		System.out.println(name);
+	*/	
 		
-		
-		Studentt stu = new Studentt("dss",3,2);
-		stu.name = "dsf";
-		stu.english = 3;
-		stu.math = 3;
+		Studentt stu = new Studentt("kekw",30,20);
 		stu.print();
-		String s1=new String("abc");
+		
+/*		String s1=new String("abc");
 		String s2=new String("abc");
 		System.out.println(s1==s2);
-		System.out.println(s1.equals(s2)); */
+		System.out.println(s1.equals(s2)); 
 		
 		int n = (int)(3/5.0);
 		System.out.println(n);
