@@ -13,7 +13,7 @@ public class MyHello {
 		System.out.println(name);
 	*/	
 		
-		Studentt stu = new Studentt("kekw",30,20);
+		Studentt stu = new Studentt("kekw",80,85);
 		stu.print();
 		
 /*		String s1=new String("abc");

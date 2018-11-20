@@ -15,15 +15,32 @@ public class Studentt {
 	
 	
 	public void print(){
-		
-		System.out.println(name + "\t" + english + "\t" + math + "\t" + getAverage()+
-				"\t" + highest());
-		if(getAverage()/2 < 60){
+		int average = getAverage();
+		System.out.println(name + "\t" + english + "\t" + math + "\t" + "Average: " + getAverage()+
+				"\t" + "Highest: " + highest());
+		if(getAverage() < 60){
 			System.out.println("FAILED");
 		}else{
 			System.out.println("PASS");
 		}
+		System.out.println(getGrade());
 	}
+	
+	public char getGrade(){
+		char grading = 'F';
+		int average = getAverage();
+		if(average >= 90 && average <= 100){
+			grading = 'A'; 
+		}else if(average >= 80 && average <= 89){
+			grading = 'B'; 
+		}else if(average >= 70 && average <= 79){
+			grading = 'C';
+		}else if(average >= 60 && average <= 69){
+			grading = 'D';
+		}
+		return grading;
+	}
+	
 	
 	public int highest(){
 		if( english > math){
